@@ -1,0 +1,18 @@
+// Dialogue
+#intro1 2
+Line of intro 1
+
+#intro2 2
+Line of intro 2
+
+#intro3 3
+Line of intro 3
+
+#creepy1 3
+Creepy 1
+
+#superCreepy1 3
+Super creepy 1!
+
+#corny1 3
+Corny 1
