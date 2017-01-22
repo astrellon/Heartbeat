@@ -66,7 +66,7 @@ public class RippleEffect : MonoBehaviour
     Material material;
     float timer;
     int dropCount;
-    private GameManager GameManager;
+    private GameManager gameManager;
 
     void UpdateShaderParameters()
     {
@@ -90,8 +90,9 @@ public class RippleEffect : MonoBehaviour
 
     void Awake()
     {
-        this.GameManager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>();
-        this.GameManager.OnHeartbeat += GameManager_OnHeartbeat;
+        this.gameManager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>();
+        this.gameManager.OnHeartbeat += GameManager_OnHeartbeat;
+        this.gameManager.OnStartGame += GameManager_OnStartGame;
 
         droplets = new Droplet[10];
         for (var i = 0; i < this.droplets.Length; i++)
@@ -117,9 +118,17 @@ public class RippleEffect : MonoBehaviour
         UpdateShaderParameters();
     }
 
-    private void GameManager_OnHeartbeat()
+    private void GameManager_OnStartGame()
     {
         this.Emit();
+    }
+
+    private void GameManager_OnHeartbeat(bool fullBeat)
+    {
+        if (fullBeat)
+        {
+            this.Emit();
+        }
     }
 
     void Update()

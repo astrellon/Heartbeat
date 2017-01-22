@@ -10,14 +10,16 @@ public class DialogueTree
     {
         public readonly NodeRule Rule;
         public readonly string Dialogue;
+        public readonly string Sprite;
         public readonly float DialogueTime;
 
         public List<DialogueNode> Children = new List<DialogueNode>();
 
-        public DialogueNode(NodeRule rule, string dialogue, float dialogueTime)
+        public DialogueNode(NodeRule rule, string dialogue, string sprite, float dialogueTime)
         {
             this.Rule = rule;
             this.Dialogue = dialogue;
+            this.Sprite = sprite;
             this.DialogueTime = dialogueTime;
         }
 
@@ -46,13 +48,6 @@ public class DialogueTree
     public DialogueTree(GameManager gameManager)
     {
         this.GameManager = gameManager;
-        /*
-        this.RootNode = new DialogueNode((manager) => { return true; }, "Introduction dialogue", 4.0f);
-        this.currentNode = this.RootNode;
-
-        var child1 = new DialogueNode((manager) => { return manager.CurrentReaction > 2; }, "High response", 3.0f).AddTo(this.RootNode);
-        var child2 = new DialogueNode((manager) => { return manager.CurrentReaction <= 2; }, "Low response", 3.0f).AddTo(this.RootNode);
-        */
 	}
 
 	public void Update ()
@@ -79,6 +74,17 @@ public class DialogueTree
             }
 
             return this.currentNode.Dialogue;
+        }
+    }
+    public string CurrentSprite
+    {
+        get
+        {
+            if (this.currentNode == null)
+            {
+                return null;
+            }
+            return this.currentNode.Sprite;
         }
     }
 

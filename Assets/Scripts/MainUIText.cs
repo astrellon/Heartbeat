@@ -16,10 +16,13 @@ public class MainUIText : MonoBehaviour
     private Text UIText;
 
     private string nextText = "";
+    private bool newText = false;
     private State currentState = State.Blank;
     private float stateTime = 0.0f;
 
-    private const float FadeTime = 0.5f;
+    public bool Started = false;
+
+    private const float FadeTime = 0.3f;
 
 	// Use this for initialization
 	void Start ()
@@ -30,21 +33,27 @@ public class MainUIText : MonoBehaviour
     public void NextString(string text)
     {
         this.nextText = text;
+        this.newText = true;
     }
 	
 	// Update is called once per frame
 	void Update ()
     {
+        if (!this.Started)
+        {
+            return;
+        }
         this.stateTime += Time.deltaTime;
 
         switch (this.currentState)
         {
             case State.Blank:
-                if (!string.IsNullOrEmpty(this.nextText))
+                if (this.newText)
                 {
                     this.ChangeState(State.FadeIn);
                     this.UIText.text = this.nextText;
                     this.nextText = "";
+                    this.newText = false;
                 }
                 break;
 
@@ -69,7 +78,7 @@ public class MainUIText : MonoBehaviour
                 break;
 
             case State.Visible:
-                if (!string.IsNullOrEmpty(this.nextText))
+                if (this.newText)
                 {
                     this.ChangeState(State.FadeOut);
                 }

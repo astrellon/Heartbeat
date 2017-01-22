@@ -1,0 +1,396 @@
+// Dialogue File for Intro
+
+#intro_1 4.0 intro1
+This is a story. A simple story, one about new beginnings. You see, we’re about to go on a date. Well, not you and I, she is. Do you see her? 
+#intro_2 9.0 intro2
+Yes, she is about to go on a date. A first date in fact. Can you hear it? Her heart beating? The anticipation, the excitement, the terror. Let us join her.
+#intro_3 12.5
+She stands, nervously twiddling her thumbs, waiting to catch a glimpse of them. On the other side, she can hear shouts of laughter, rides moving and nostalgic music of the merry go round. Out of all the places, a theme park was where they decided to meet. I know, right? A theme park? Not my first choice either. Anyway, where was I? Ah yes, she stands, waiting, until she see’s them.
+#intro_4 8
+They walk up to her, and shyly say hello. She smiles back, and nervously says hi. That’s all she says. “Hi”. Surely, she could say something more? I mean, I would. She begins to think, of what to say. 
+
+//Corny Dialogue Choice
+#Corny_1 3.0 //Show corny image
+They jump in before she can get a word out. They’re probably nervous too. 
+#corny_2 1.5
+“So, how’s your day been?”
+#corny_3 2.0
+“Oh, you know,” she starts, “its had its ups and downs.”
+#corny_4 1.5
+They raise an eyebrow, curiously.
+#corny_5 4.0
+“You know, because roller coasters. And we’re at a theme park.” Oh! I get it. ‘Ups and downs’! That is quite clever. They however, look a little lost. Sheepishly, she explains.  “Ups and downs. It’s a pun,” They’re confused, but then slowly start to laugh. 
+#corny_6 2.0
+“That’s horrible,” they chuckle. She joins in.
+#corny_7 2.0
+“Yeah, yeah it is. You’ll get that a lot with me.”
+#corny_8 2.0
+“Good,” they smile, and the two walk together to the ticket stand.
+#corny_9 3.5
+While their introduction had been fairly seamless, the pair stand in the ticket line in silence, neither knowing what to say. She shuffled from side to side awkwardly. Perhaps she should make the first move?
+
+//TV Dialogue
+#TV_1 2.5
+“Have you been watching anything interesting lately?” she asks. They ponder on the question before answering.
+#TV_2 2.0
+“No, can’t say that I have. How about you?”
+#TV_3 4.0
+Oh darn, they turned the question back onto her. She wracked her brain. What could she say that was honest, but cool at the same time? Whatever you do, don’t mention reality tv, that’s cringe worthy at best. 
+#TV_4 2.0
+“Horrible dating shows!” she blurted. Now, what did I just say? 
+#TV_5 3.0
+“Wait, do you watch ‘Survival Dating?’” they ask, enthusiastically. Wait, enthusiastically? Did I hear that right?
+#TV_6 2.0
+“Oh my gosh, yes!!” she cries.
+#TV_7 2.0
+“How good was last night’s episode?”
+#TV_8 2.5
+“Where they got them to jump down that waterfall to confess their love?? I know! It was crazy!”
+#TV_9 4.0
+“So crazy!” they answer. They share a glance and giggle, neither of them thinking that they’d bond over something as ridiculous as this. Well, that went better than expected. The pair chat happily about the show as they grab your tickets and head through the entrance.
+
+//Cheese Dialogue
+#Cheese_1 1.5
+“You a fan of cheese?”
+#Cheese_2 1.5
+“Pardon?”
+#Cheese_3 2.0
+“You know, cause you seemed to be a fan of my corn before,” she says. Oh, why?
+#Cheese_4 2.0
+They laugh. “Sure, I’m a fan of cheese.”
+#Cheese_5 3.0
+“Me too, figuratively and literally. Even bio cheese. Given the right brand, that stuff can be pretty great.” she confesses.
+#Cheese_6 1.5
+“Really?” they seem dubious. So am I. 
+#Cheese_7 1.5
+“Really! I’ve got some if you want.”
+#Cheese_8 1.5
+“Now?” they asked, surprised. 
+#Cheese_9 2.5
+“Oh, no! I mean at mine,” her eyes widened. Mine would too, that’s a bold move! 
+#Cheese_10 4.0
+“I don’t mean for you to come over, just you know, whenever, we can keep it chill.” She shrugged her shoulders, trying to achieve the ‘chill’. He smiled.
+#Cheese_11 1.5
+“Sure, whenever sounds good.”
+#Cheese_12 2.0
+She blushed, as the ticket attendant called out “Next please!”
+
+//Follow on from either TV or Cheese
+#TC_1 5.0
+They grab their tickets and walk through the gates. A cheery attendant hands her a guide and them a balloon. While the pair stand by the entrance, trying to get their bearings, the wind picks up, and blows the balloon out of their hand. The two look at each other and laugh. If that ends up being the worst thing happening on this date, that’s not so bad. 
+#TC_2 2.0
+“Did you have any place you wanted to go specifically?” she asked.
+#TC_3 2.5
+They open up the map, and gives it a quick glance, a few things catching their eye.
+
+//Lead to Food, Roller Coaster or Merry Go Round
+
+
+//Creepy Dialogue Choice
+#Creepy_1 2.0 //Show creepy image
+“You know, you don’t have to buy a ticket to ride me.”
+#Creepy_2 2.0
+“Um what?” they stammer. Oh, no. That wasn’t a good move. 
+#Creepy_3 4.0
+Oh god, she thinks. She laughs, awkwardly, stammering out it was a joke, she didn’t really mean it, obviously. When it really was the first thing that came to mind. But maybe, they’ll laugh? 
+#Creepy_4 3.0
+Silence. No such luck. She did get a stiff smile though. This isn’t off to the best start, is it? Nonetheless, they silently make their way to the ticketing booth. 
+#Creepy_5 2.5
+Neither of them talk. They just stand, waiting for the other to make the first move. Perhaps she should say something?
+
+//Marriage Dialogue
+#Marriage_1 2.0
+“So, how do you feel about getting married?”
+#Marriage_2 1.0
+“Excuse me?”
+#Marriage_3 4.0
+“You know marriage, the whole sticking with one person thing. I mean, personally,” she was rambling. Of course she was. Why’d she bring up marriage? On a first date?! Oh god. She was still talking. Just stop, stop now! You’re embarrassing all of us here!
+#Marriage_4 3.0
+“I guess marriage is good? I may consider it.” he answered, cutting her off. ‘Thank goodness’, she thinks. He saved her from herself. Maybe he could tell she was nervous?
+
+//Sex Dialogue
+#Sex_1 2.0
+“Sex is a thing.”
+#Sex_2 1.4
+“Huh?”
+#Sex_3 6.0
+“You know, it’s a thing,” she continues. “Like when you’re seeing someone, eventually the conversation turns to sex. Right?”
+#Sex_4 5.0
+“I guess?” they answer, very puzzled by the sudden turn of conversation. “I mean, I like it.” Huh, bold call from them.
+#Sex_5 4.0
+She’s taken aback by his direct answer. “Good, that’s, uh, good.”
+
+//Follow on from either Marriage or Sex
+#MS_1 5.0
+They grab their tickets and walk through the gates. A cheery attendant hands her a guide and them a balloon. While the pair stand by the entrance, trying to get their bearings, the wind picks up, and blows the balloon out of their hand, almost representative of their date thus far. Perhaps now that they were in the park, things would get better.
+#MS_2 1.5
+“Did you have any place you wanted to go specifically?” she asked.
+#MS_3 2.5
+They open up the map, and gives it a quick glance, a few things catching their eye.
+
+//Lead to Food, Haunted House or Love Boat
+
+//Food
+#Food_1 2.0
+“Did you want to grab some food?” they asked.
+#Food_2 2.0
+Her stomach grumbled and she giggled, embarrassed. 
+#Food_3 2.0
+The food truck park is filled with various options. She glances at all of them. 
+#Food_4 2.0
+“Do you have an idea of what you feel like?”
+//Lead to Chips or Spicy Popcorn
+
+//Chips
+#Chips_1 3.0
+While there were a few adventurous options, chips was probably the safest option. Safe could seem boring though, did she want to risk that? Nevermind, she’s walking to the chips truck. I suppose better safe than sorry. 
+#Chips_2 3.0
+They followed her as she bought her chips. She went for the simplest, no-nonsense option. Hot Chips with Tomato sauce. Simple, yet effective. As she was about to take a bite, she realised she wasn’t along.
+#Chips_3 2.0
+“Did you want some?” she offered some to them. They smiled and shook their head. 
+#Chips_4 1.5
+“No, I’m good, but thank you.”
+#Chips_5 4.0
+They went to the next truck and purchased themselves some pumpkin dumplings. Oh, I haven’t had those in ages! They’re just deep fried pumpkin patties which are filled with sugar, so when you bite you get this sugary, salty goodness. Sorry, I shouldn’t be making you hungry. *Ahem* Moving on.
+#Chips_6 3.0
+They shared polite conversation over their food. You want to know what they said? Pshh, not important. Just menial, “So, have you always lived here?” kind of conversation. A bit basic really. It gets really interesting after food.
+#Chips_7 2.0
+Once they were satisfied, the two turned their attention back to the map. They left the decision with her. Where should they go?  
+//Lead to Roller Coaster or Merry Go Round
+
+//Roller Coaster
+#Roller_1 3.0
+Feeling particularly brave after the calm lunch, she locks eyes with ‘The Pulveriser’. She turned to them, grinning.
+#Roller_2 1.5
+“How brave are you feeling?”
+#Roller_3 1.5
+“Pretty brave, why?”
+#Roller_4 2.5
+“How about this?” she points to the photo of ‘The Pulveriser’. “Do you think we could survive?”
+#Roller_5 1.5
+“I think it’s worth a shot,” they reply. Together they walk towards the ride.
+#Roller_6 3.5
+After half an hour of waiting in line, it’s finally their turn to get on the coaster. When they’re both strapped in, slowly ascending to the peak, she feels the sudden anxiety, before the drop happens. They turn to her.
+#Roller_7 1.0
+“You ready?”
+#Roller_8 1.0
+“As ready as I’ll ever be.”
+#Roller_9 2.5
+The drop feels instantaneous. All at once, she feels a worries, her cares, her fears, all leave her. They’re gone, left behind, and all there is, is now. 
+#Roller_10 2.5
+Once they finally slow to a stop she turns to them. They look back, equally as exhilarated. They both say the same thing at the same time.
+#Roller_11 1.0
+“That. Was. Amazing.”
+#Roller_12 2.0
+Finally, once off and on a high from the ride, they realised the sun was beginning to set.
+//Lead to Strong man Wrestle
+
+
+//Merry Go Round
+#Merry_1 2.0
+Ever since she heard the music outside she felt the need to ride one. 
+#Merry_2 2.5
+“This may be a bit, well, childish, but I kind of want to go on the merry go round.”
+#Merry_3 2.0
+He raised his eyebrows in surprise. “Really?”
+#Merry_4 2.5
+She nodded. “Yeah, I always liked them as a kid, I wouldn’t mind the chance to ride one again.”
+#Merry_5 2.0
+A bold move by her. Showing her vulnerable side is quite interesting.
+#Merry_6 1.0
+“Um, sure.”
+#Merry_7 2.5
+Hmm, they don’t seem like they’re the most excited about this plan. Nevertheless, the two walk towards the ride anyway.
+#Merry_8 3.0
+When they get on, she immediately feels a wave of nostalgia. All these memories of her childhood, of her family, those fun times. She smiles, and laughs. 
+#Merry_9 3.0
+They weren’t that enthusiastic initially, but after seeing her smile, he could not help but grin themselves. If she was so happy, then they could be too. 
+#Merry_10 2.0
+As they got off the ride, they noticed the sun beginning to set.
+//Lead to Strong man Wrestle
+
+
+//Spicy Popcorn
+#Spicy_1 3.0
+Out of all of the food trucks, the spicy popcorn stood out the most. She was feeling adventurous. And wanted to impress her date with her adventurous spirit. Was that really the best idea? Only time will tell.
+#Spicy_2 3.0
+They watched her grab her bag of Super Spicy Popcorn, with extra Chilli and Hoisin on the top. It wasn’t something she’d usually grab, but, why not. 
+#Spicy_3 2.0
+“Can you handle all of that?” they asked in awe. 
+#Spicy_4 5.0
+She smiled. “Oh yeah, I love trying new foods.” She grabbed a piece and popped it into her mouth. ‘Oh, this isn’t so bad’ she thought. ‘The hoisin sauce is actually pretty nice.’ It was as she was grabbing her second piece that she felt it. The burn. Oh the burn! No, no! This was too much! She started to cough, first it was just a little tickle, then, it was uncontrollable. 
+#Spicy_5 2.0
+“Are you alright?” they asked concerned. She waved her hand, while still coughing.
+#Spicy_6 2.0
+“I’m… fine… not… dying… at… all!” she stuttered. 
+#Spicy_7 5.0
+They looked around frantically, before running to the closest food truck and buying a bottle of water. “Here!” they thrust the bottle towards her.
+She grabbed it and drank as if she were dying of thirst. It helped, not as much as she would have liked, but it would have to do for now. At least the coughing started to subside. 
+#Spicy_8 2.0
+“Better?” they asked tentatively. She nodded.
+#Spicy_9 1.0
+“Yes, thank you.”
+#Spicy_10 2.0
+“No problems. Perhaps we’ll leave the popcorn for now?”
+#Spicy_11 1.5
+“Probably a good idea,” she smiled weakly. 
+#Spicy_12 3.0
+They opted for something a little gentler on their throats before turning their attention back to the map. They left the decision with her. Where should they go?
+
+//Haunted House
+#Haunted_1 2.0
+She saw the haunted house right on the edge of the map. 
+#Haunted_2 3.0
+“Haunted House!” she cried. It was something she usually avoided, but why not? Perhaps she wouldn’t embarrass herself too much in the dark. Plus, she could potentially snuggle up to them too.
+#Haunted_3 2.0
+“Um, okay,” they said, looking a little worried at her enthusiasm. 
+#Haunted_4 3.0
+“Great! Let’s go!” she started walking, in hopes to shield her red face from them. She didn’t mean to sound too enthusiastic. But it just came out. These nerves were definitely hitting her. 
+#Haunted_5 2.5
+The Haunted House looked fairly gimmicky on the outside. It had your typical fake spider webs, carved pumpkins and weird skeletons.
+#Haunted_6 2.5
+‘Well, this doesn’t look too bad,’ she thought. It was only once she walked inside when she realised what a mistake she had made.
+#Haunted_7 5.0
+Blood was everywhere. Zombies were lurking in the dark corners, waiting to pounce. And ominous portraits hung on the walls. It was too much. Too much for her to handle. Instinctively, she clung on to them. They looked at her, confused and a bit concerned as to how tightly she was holding on. They didn’t pull back, but didn’t feel comfortable either.
+#Haunted_8 3.5
+When they left the house, she was still holding on to them. It was only once they were outside that she realised what she was doing. Embarrassed, she quickly let go of them.
+#Haunted_9 1.0
+“Sorry!” she cried.
+#Haunted_10 2.0
+“It’s okay,” they said, though they still didn’t look quite so comfortable.
+#Haunted_11 2.0
+She looked away and realised the sun was beginning to set. 
+//Lead to Strong man Wrestle
+
+
+//Love Boat
+#Boat_1 3.0
+The bright heart right in the middle of the map grabbed her attention. This was a date right? They might as well do date things. 
+#Boat_2 2.0
+“I think I know where to go,” she said. They shrugged.
+#Boat_3 1.5
+“Sure, lead the way.”
+#Boat_4 2.5
+They began to walk down to the lake, right in the middle of the park. It was only once the two got there, that they realised what was happening.
+#Boat_5 2.0
+“A couple’s boat ride?” they exclaimed? She looked back to them. 
+#Boat_6 2.0
+“Yeah! Thought it would be nice, because we’re on a date and all that.”
+#Boat_7 2.0
+“I guess,” they mumbled, looking less than enthused. She took no notice of their reaction. This was going to be good! 
+#Boat_8 4.0
+The two found a boat and started to peddle around the lake. It really was a beautiful spot. The trees surrounding them, the blue lake shimmering in the sun, and the ambient music. It would have been perfect, except for the awkwardness between them. 
+#Boat_9 4.0
+While peddling, she noticed they were quite close to the edge of the boat. She, seeing an opportunity, decided to cosy up next to them. Perhaps that would alleviate some of the awkwardness. But instead of loosening up and welcoming her, they stayed to themselves, and kept as close to the edge as possible. 
+#Boat_10 2.0
+Perhaps this wasn’t the wisest decision.
+#Boat_11 2.0
+Finally, as they got off, the sun was beginning to set.
+//Lead to Strong man Wrestle
+
+//Strong man Wrestle
+#Wrestle_1 2.0
+“Well, what now?” she asked.
+#Wrestle_2 4.0
+They shrugged. That is, until they noticed an attendant handing out flyers around them. The attendant bounced up to them and placed one in their hand.
+“A ‘Strong Man Competition - Come and watch the biggest and the bravest take down one another.’” She read over their shoulder.
+#Wrestle_3 2.0
+“How about this?” they asked. 
+#Wrestle_4 1.0
+“Sure,” she agreed.
+#Wrestle_5 2.0
+They walked into the tent as soon as the show was about to start. On walked 4 men, all shirtless and in tight shorts. 
+#Wrestle_6 4.0
+The men started to wrestle and it was, well, weird. She shifted uncomfortably in her seat, not knowing what to do or where to look. They also shifted. Were they not enjoying this either? She managed to catch their eye, and it was then when they both started to laugh.
+#Wrestle_7 2.0
+“Should we get out of here?” they asked. She nodded, and they snuck out of the tent.
+#Wrestle_8 2.5
+Once leaving the tent the two looked at each other. The sun had set and it was clear that the date was coming to an end.
+#Wrestle_9 1.0
+“Well, this is it,” they said.
+#Wrestle_10 1.0
+“Yeah, this is it.”
+//Lead to endings
+
+
+//End states
+//If Corny: 
+#CornyEnd_1 2.0
+“I loved your opening,” they said, with a smile. 
+#CornyEnd_2 2.0
+“Thanks” she laughed. “I’m glad I said it.”
+
+//If Creepy: 
+#CreepyEnd_1 1.5
+“We had a bit of an odd opening.”
+#CreepyEnd_2 2.0
+She laughed, nervously. “Um yeah, I was a bit nervous about this whole thing.”
+#CreepyEnd_3 1.5
+They nodded. “Me too.”
+
+//If Chips: 
+#ChipsEnd_1 2.0
+“I tell you what, I’m definitely coming back for those chips!”
+#ChipsEnd_2 2.5
+They smiled. “You should! I’d come back for those pumpkin pancakes, they were yum!”
+
+//If Spicy: 
+#SpicyEnd_1 2.5
+“That popcorn was something else.” she said, rubbing her tummy. “Thanks for getting me that water.”
+#SpicyEnd_2 2.0
+They smiled. “No problems.”
+
+//If Rollercoaster: 
+#RollerEnd_1 2.0
+“I’m glad I felt brave enough to go on that coaster with you.”
+#RollerEnd_2 2.0
+“Yeah,” they replied. “That was a lot of fun.”
+#RollerEnd_3 2.0
+“I’d like to go on that again with you.” she said, shyly. They smiled.
+#RollerEnd_4 1.0
+“I’d like that.”
+#RollerEnd_5 2.0
+“Maybe no weird wrestling next time?” she suggested. They laughed.
+#RollerEnd_6 1.0
+“It’s a date.”
+#RollerEnd_7 2.0
+END
+
+//If Merry Go Round:
+#MerryEnd_1 2.0
+“Thanks for indulging me.” she said.
+#MerryEnd_2 2.0
+“Oh for the merry go round?” They asked. “No problems.”
+#MerryEnd_3 2.5
+“This was nice, maybe we can do it again some time?” she asked, nervously.
+#MerryEnd_4 2.0
+They nodded. “Yeah, sounds good.”
+#MerryEnd_5 2.0
+END
+
+//If Haunted House: 
+#HauntedEnd_1 2.5
+“So uh, I’m sorry for holding on to you in the haunted house.” she said, sheepishly.
+#HauntedEnd_2 2.5
+“That’s okay.” They rubbed the back of their head. “That was interesting.”
+#HauntedEnd_3 2.0
+“Yeah...” she trailed off, not knowing what to say.
+#HauntedEnd_4 3.5
+“Well, it was nice meeting you,” they said, with their arms open. They had a quick, awkward embrace before they went their separate ways. Who knows if they’d meet again?
+#HauntedEnd_5 2.0
+END
+
+
+//If Love Boat: 
+#BoatEnd_1 2.0
+“That boat ride was, uh...” she was struggling to find the right words.
+#BoatEnd_2 1.5
+“Interesting,” they said, quietly.
+#BoatEnd_3 1.5
+She nodded. “Yeah, interesting.”
+#BoatEnd_4 2.0
+They stood in silence until they cleared their throat. 
+#BoatEnd_5 3.0
+“Um, so I’m going to go. But it was nice meeting you!” they said, hurriedly. Before she could reply, they were off. Perhaps that second date won’t be happening.
+#BoatEnd_6 2.0
+END
